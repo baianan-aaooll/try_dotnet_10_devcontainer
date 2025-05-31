@@ -1,4 +1,6 @@
-FROM mcr.microsoft.com/dotnet/nightly/sdk:10.0.100-preview.3
+# FROM mcr.microsoft.com/dotnet/nightly/sdk:10.0.100-preview.3
+FROM mcr.microsoft.com/dotnet/nightly/sdk:10.0
+#    mcr.microsoft.com/dotnet/nightly/sdk:10.0
 #
 ARG USERNAME=ubuntu
 RUN apt-get update \
